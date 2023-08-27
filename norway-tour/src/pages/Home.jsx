@@ -1,6 +1,9 @@
 import React from 'react'
 import {Heading, Image, Input,Box, Button, Center} from "@chakra-ui/react"
 import MidSection from './MidSection'
+import Footer from "./Footer"
+import LowerMidSection from './LowerMidSection'
+import MainSectin from './MainSectin'
 
 function Home() {
   return (
@@ -25,7 +28,7 @@ function Home() {
            <Input color="black" backgroundColor="lightgray" borderRadius="10px 0px 0px 10px" placeholder='Destination'/> 
           <Input borderRadius="none" type='date' placeholder='From'/>
           <Input borderRadius="none" type='date' placeholder='To'/>
-          <Button color="white" backgroundColor="gray" borderRadius="0px 10px 10px 0px" padding="10px 100px 10px 100px">Search</Button>
+          <Button color="white" backgroundColor="#608188" borderRadius="0px 10px 10px 0px" padding="10px 100px 10px 100px">Search</Button>
            {/* </Center> */}
           </Box>
 
@@ -33,6 +36,16 @@ function Home() {
     </div>
     <div>
       <MidSection/>
+    </div>
+    <div>
+      <MainSectin/>
+    </div>
+
+    <div>
+      <LowerMidSection/>
+    </div>
+    <div>
+      <Footer/>
     </div>
     </>
   )

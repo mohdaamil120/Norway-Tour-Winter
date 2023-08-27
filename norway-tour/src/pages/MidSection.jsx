@@ -40,9 +40,9 @@ function MidSection() {
                     </VStack>
                 </HStack>
             </div>
-            <Image mt="90px" boxShadow= "rgba(0, 0, 0, 0.45) 0px 25px 20px -20px" width="100%" src='https://images.unsplash.com/photo-1485903266100-192c2e0af64f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fG5vcndheSUyMCUyMG1vdW50YWlucyUyMHdpdGglMjB3aGl0ZSUyMHNub3d8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60' alt='mountains'></Image>
+            <Image mt="90px" height="650px" boxShadow= "rgba(0, 0, 0, 0.45) 0px 25px 20px -20px" width="100%" src='https://images.unsplash.com/photo-1485903266100-192c2e0af64f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fG5vcndheSUyMCUyMG1vdW50YWlucyUyMHdpdGglMjB3aGl0ZSUyMHNub3d8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60' alt='mountains'></Image>
            
-            <div style={{ marginTop:"-30%", textAlign:"right",fontSize:"90px", fontWeight:"bold",width:"50%",background: 'rgba(0, 0, 0, 0.5)' }}>
+            <div style={{ color:"#404040", marginTop:"-30%", textAlign:"right",fontSize:"90px", fontWeight:"bold",width:"50%",background: 'rgba(0, 0, 0, 0.5)' }}>
                Explore Our Norway Tours
             </div>
         </div>

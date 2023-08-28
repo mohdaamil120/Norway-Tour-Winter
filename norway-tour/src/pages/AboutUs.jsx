@@ -1,6 +1,6 @@
 import React from 'react'
 import { Box, Heading, Text,Image ,HStack,VStack} from '@chakra-ui/react';
-import Footer from './Footer';
+import Footer from "../pages/Footer";
 
 function AboutUs() {
   return (

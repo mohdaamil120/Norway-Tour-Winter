@@ -21,7 +21,7 @@ function Footer() {
           <Box mt="80px" display="flex" justifyContent="space-evenly">
             <Box>
                 <HStack>
-                    <VStack>
+                    <VStack mr="80px">
                     <Heading color="white" as="h6" size="sm">wintertravello</Heading>
                     </VStack>
                     <VStack>
@@ -41,9 +41,9 @@ function Footer() {
                         <Heading color="white" as="h6" size="sm">winter_travello</Heading>
                         <Heading color="white" as="h6" size="sm">wintertravello@gmail.com</Heading>
                         <Heading color="white" as="h6" size="sm">+47 21 51 88 77</Heading>
-                        <FontAwesomeIcon color='white' icon={faEnvelope} />
+                        {/* <FontAwesomeIcon color='white' icon={faEnvelope} /> */}
                         {/* <FontAwesomeIcon color='white' icon={faFacebook} /> */}
-                        <FontAwesomeIcon icon="fa-solid fa-facebook" />
+                        {/* <FontAwesomeIcon icon="fa-solid fa-facebook" /> */}
                     </VStack>
                 </HStack>
             </Box>

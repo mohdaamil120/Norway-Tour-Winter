@@ -1,3 +1,10 @@
 .btn:hover{
   color: black;
 }
+
+.card:hover{
+  width:300px;
+   height:350px;
+  
+  
+}

@@ -1,15 +1,24 @@
 // Login.js
 import React, { useState } from 'react';
 import { Box, Heading, FormControl, FormLabel, Input, Button, Container } from '@chakra-ui/react';
+import { useAuth } from './AuthContextProvider';
+import { useNavigate } from 'react-router';
 
 const Login = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
+  const navigate = useNavigate()
+
+  const { isLoggedIn, setIsLoggedIn } = useAuth();
+
   const handleLogin = () => {
-    // Perform login logic here
-    console.log('Login attempt:', email, password);
-  };
+    navigate("/")
+
+  setIsLoggedIn(true);
+  console.log('Login attempt:', "email-",email, "passwor-",password);
+ 
+};
 
   return (
     <Container>
